@@ -22,18 +22,6 @@ Mr. Hamidreza Hosseinkhani
 
 <!-- _class: tinytext -->
 
-# Agenda
-<br/>
-
-1. **Concept of Concurrency**  
-2. **Thread and Multi-threading** 
-3. **Synchronization**  
-4. **Thread State**  
-
----
-
-<!-- _class: tinytext -->
-
 # Concurrency vs. Parallelism
 <br/>
 
