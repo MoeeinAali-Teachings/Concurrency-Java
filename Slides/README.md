@@ -332,6 +332,13 @@ public class BankAccount {
   }
 }
 ```
+
+---
+# Synchronized: Race Condition
+<br/>
+
+![image](./figs/7.jpg)
+
 ---
 <!-- _class: tinytext --> 
 # Synchronized
@@ -617,7 +624,7 @@ public class AtomicExample {
 
 ---
 
-# ReadWriteLock 
+# ReentrantReadWriteLock 
 
 ```java
 List<Double> list= new LinkedList<>();
@@ -658,20 +665,13 @@ synchronized (resource1) {
 ```
 ---
 
-# Starvation
+# Deadlock
 
-- Occurs when a thread is perpetually denied access to resources due to high-priority threads.
-- **Causes**:
-  - Priority scheduling where lower-priority threads are never executed.
-  - Resource monopolization by higher-priority threads.
+![image](./figs/8.jpg)
 
-```java
-while (true) {
-    // High-priority thread monopolizing CPU time
-}
-```
+
 ---
----
+
 
 # References
 
